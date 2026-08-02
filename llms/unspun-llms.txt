@@ -1,0 +1,24 @@
+# Unspun
+
+> Unspun is a fashion-technology company building Vega, the world's first 3D weaving machines, which weave yarn directly into finished garments in about twenty minutes for automated, localized, on-demand apparel manufacturing. Backed by DCVC, based in Oakland, California and Hong Kong, it pairs weaving hardware with custom-fit patternmaking and design-automation software for manufacturers and brands. Unspun does not currently publish a public API or developer program.
+
+## Company
+
+- [Website](https://www.unspun.io/): The future of fashion manufacturing
+- [Vega 3D weaving](https://www.unspun.io/vega): The Vega 3D weaving platform
+- [Manufacturers](https://www.unspun.io/manufacturers): Solutions for apparel manufacturers
+- [Impact](https://www.unspun.io/impact): Sustainability and carbon-reduction mission
+- [Blog](https://www.unspun.io/blog): Company stories and updates
+- [About](https://www.unspun.io/about): Founders, mission, and technology
+- [Careers](https://www.unspun.io/join): Join the team
+- [Contact](https://www.unspun.io/contact): Contact Unspun
+- [GitHub](https://github.com/unspun): Engineering organization (embedded/firmware repositories)
+
+## Policies
+
+- [Terms & Conditions](https://www.unspun.io/terms)
+- [Privacy Policy](https://www.unspun.io/privacy)
+
+## APIs
+
+- No public APIs are published by Unspun as of 2026-07-21.

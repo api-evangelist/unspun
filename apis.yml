@@ -1,7 +1,26 @@
 aid: unspun
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/unspun.png
 name: Unspun
-description: Unspun is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Unspun is a fashion-technology company building Vega, the world's first 3D
+  weaving machines, which transform yarn directly into finished woven garments in
+  about twenty minutes for automated, localized, on-demand apparel manufacturing.
+  Founded by Beth Esponnette, Walden Lam, and Kevin Martin and operating from Oakland,
+  California and Hong Kong, the company pairs its weaving hardware with software for
+  custom-fit patternmaking and design automation, working with manufacturers and
+  brands to eliminate overproduction, with a mission of reducing global human carbon
+  emissions by one percent. Unspun is backed by DCVC and does not currently publish
+  a public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/unspun/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,50 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Manufacturing
+- Apparel
+- Fashion
+- Sustainability
+- Robotics
+- Hardware
 apis: []
+common:
+- type: DomainSecurity
+  url: security/unspun-domain-security.yml
+- name: LLMs.txt
+  type: LLMsTxt
+  url: llms/unspun-llms.txt
+- name: Website
+  type: Website
+  url: https://www.unspun.io/
+- name: Blog
+  type: Blog
+  url: https://www.unspun.io/blog
+- name: Terms of Service
+  type: TermsOfService
+  url: https://www.unspun.io/terms
+- name: Privacy Policy
+  type: PrivacyPolicy
+  url: https://www.unspun.io/privacy
+- name: Careers
+  type: Careers
+  url: https://www.unspun.io/join
+- name: Contact
+  type: Contact
+  url: https://www.unspun.io/contact
+- name: GitHub Organization
+  type: GitHubOrganization
+  url: https://github.com/unspun
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

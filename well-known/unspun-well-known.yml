@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of https://www.unspun.io and https://unspun.io
+host: https://www.unspun.io
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: The apex https://unspun.io/.well-known/security.txt returns 308 to the www
+  host, where it 404s. No well-known discovery surface is published; no files were
+  saved. /llms.txt on the www host also returns 404.
